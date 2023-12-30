@@ -12,6 +12,10 @@
         <item name="colorButtonNormal">@color/blue_400</item>
     </style>
 
+    <style name="Button.Blue" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/colorPrimary</item>
+    </style>
+
     <style name="Chip.Blue" parent="@style/Widget.MaterialComponents.Chip.Action">
         <item name="android:textColor">@android:color/white</item>
         <item name="chipBackgroundColor">@color/colorPrimaryDark</item>
